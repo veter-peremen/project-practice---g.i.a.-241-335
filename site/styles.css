@@ -1,0 +1,133 @@
+﻿/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Стили для главной страницы */
+.main-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.news-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main-news {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Стили для страницы members */
+.members-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.member-column {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Стили для страницы task */
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.task-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.task-image {
+    flex: 1;
+    text-align: center;
+    width: 50%;
+}
+
+    .task-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+/* Стили для страницы links */
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.link-button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+    .link-button:hover {
+        background-color: #45a049;
+    }
